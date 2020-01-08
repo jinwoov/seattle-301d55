@@ -21,6 +21,7 @@
     header {
         width: 960px;
         height: 100px;
+        line-height: 100px;
         box-sizing: border-box;
         border: 1px solid black;
     }

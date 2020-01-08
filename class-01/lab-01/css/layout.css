@@ -3,6 +3,7 @@
     header {
         width: 480px; 
         height: 75px;
+        line-height: 75px;
         border: 1px black solid;
         box-sizing: border-box;
     }
@@ -10,6 +11,7 @@
     aside {
         width: 480px;
         height: 150px;
+        line-height:150px;
         border: 1px black solid;
         box-sizing: border-box;
         margin: auto;
@@ -18,11 +20,13 @@
     .wing>div {
         width: 480px;
         height: 125px;
+        line-height: 125px;
         border: 1px black solid;
         box-sizing: border-box;
         margin: auto;
     }
-    
+
+
     .small {
         width: 480px;
         height:500px;
@@ -36,8 +40,9 @@
         float: left;
         width: 240px;
         height:250px;
+        line-height: 250px;
     }
-    
+
     footer {
         width: 480px;
         height: 80px;
@@ -45,14 +50,18 @@
         box-sizing: border-box;
         margin: auto;
         clear:right;
+        line-height: 80px;
     }
     }
     
     
     @media (min-width:768px) {
+
+
     aside {
         width:200px;
         height:600px;
+        line-height:600px;
         float: left;
         box-sizing: border-box;
         border: 1px black solid;
@@ -67,7 +76,8 @@
     .wing>div {
         width:380px;
         height:200px;
-        float: right;
+        line-height: 200px;
+        float: left;
         box-sizing: border-box;
         border: 1px black solid;
     }
@@ -81,7 +91,8 @@
     .small>div {
         width: 190px;
         height: 250px;
-        float: right;
+        line-height: 250px;
+        float: left;
         box-sizing: border-box;
         border: 1px black solid;
     }
@@ -89,6 +100,7 @@
     footer {
         width:760px;
         height:150px;
+        line-height: 150px;
         float: right;
         box-sizing: border-box;
         border: 1px black solid;
