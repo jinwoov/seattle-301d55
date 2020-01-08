@@ -1,0 +1,73 @@
+@media (max-width: 767px) {
+    header {
+        background-color: red;
+    }
+    header:hover {
+        background-color: rgb(255, 119, 119);
+    }
+    aside {
+        background-color: orange;
+    }
+    aside:hover {
+        background-color: rgb(255, 204, 109);
+    }
+    .wing>div {
+        background-color: rgb(226, 225, 130);
+    }
+    .wing>div:first-child {
+        background-color: yellow;
+    }
+    .small>div {
+        background-color: green;
+    }
+    .small>div:first-child {
+        background-color: rgb(108, 199, 108)
+    }
+
+    .small>div:nth-child(3){
+        background-color: blue
+    }
+    .small>div:nth-child(4){
+        background-color: midnightblue
+    }
+    footer {
+        background-color: purple;
+    }
+}
+
+@media (min-width: 768px) {
+    header {
+        background-color: rgb(255, 221, 221);
+    }
+    .wing {
+        background-color: rgb(255, 248, 232);
+    }
+
+    .wing>div:nth-child(2) {
+        background-color: rgb(255, 255, 205)
+    }
+    
+    aside {
+        background-color: rgb(175, 253, 175)
+    }
+
+    .small>div:nth-child(1) {
+        background-color: rgb(232, 245, 220)
+    }
+
+    .small>div:nth-child(2) {
+        background-color: rgb(199, 255, 236)
+    }
+    .small>div:nth-child(3) {
+        background-color: rgb(200, 253, 255)
+    }
+    .small>div:nth-child(4) {
+        background-color: #b6e9fd
+    }
+    footer {
+        background-color: rgb(255, 209, 255)
+    }
+
+
+
+}
