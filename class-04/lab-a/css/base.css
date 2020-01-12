@@ -1,0 +1,28 @@
+/* Mobile Viewport */
+body {
+    width: 480px;
+    margin: 30px;
+    font-family: monospace, sans-serif, serif;
+}
+
+/* Tablet Viewport */
+@media (min-width: 768px) {
+    body {
+        width:960px;
+        margin: 10px auto;
+        font-family: sans-serif, serif;
+    }
+}
+
+
+/* Desktop View port */
+@media (min-width: 1100px) {
+   body {
+       width: 1200px;
+       margin: 10px auto;
+       height: 100%;
+       font-family: serif;
+   } 
+
+}
+
